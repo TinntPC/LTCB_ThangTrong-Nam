@@ -11,16 +11,16 @@ int main() {
 	case 8:
 	case 10:
 	case 12:
-		cout << "\n Thang co 31 ngay ", thang;
+		cout << " Thang " << thang << " co 31 ngay ";
 		break;
 	case 4:
 	case 6:
 	case 9:
 	case 11:
-		cout << "\n Thang co 30 ngay ", thang;
+		cout << " Thang " << thang << " co 30 ngay ";
 		break;
 	case 2:
-		cout << "\n Thang 2 co 28 hoac 29 ngay ";
+		cout << " Thang " << thang << " co 28 hoac 29 ngay ";
 		break;
 	default:
 		cout << "\n Khong co thang do";
